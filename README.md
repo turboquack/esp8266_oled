@@ -15,4 +15,7 @@ Libraries used<br>
 [WiFiUdp](https://github.com/esp8266/Arduino)<br>
 [U8g2lib](https://www.arduino.cc/reference/en/libraries/u8g2/)<br>
 [Wire](https://www.arduino.cc/reference/en/language/functions/communication/wire/)<br>
-[CoinMarketCap Api Documentation](https://coinmarketcap.com/api/documentation/v1/)
+[CoinMarketCap Api Documentation](https://coinmarketcap.com/api/documentation/v1/)<br>
+# Usage
+Insert your WiFi name and password, crypto coins, api key and fingerprint for host. You can change if you want to display different price change(```percent_change_7d/percent_change_30d/percent_change_60d```) or different data(market cap/supply/etc). For different data you will have to specify that in ```grab_parse_data()``` function.<br>
+For more info check documentation of [Coinmarketcap API](https://coinmarketcap.com/api/documentation/v1/) and [ArduinoJson](https://arduinojson.org/)<br>
