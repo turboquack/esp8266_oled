@@ -1,5 +1,6 @@
 # Crypto ticker
 Crypto ticker using ESP8266 and 1.3" OLED 1,3.
+![alt text](https://github.com/turboquack/esp8266_oled/blob/main/pictures/ticker.PNG)<br>
 This ticker displays crypto, their price and price change. Data comes using CoinMarketCap API.
 # Hardware
 1.3" OLED Display I2C SSH1106 Chip 128 x 64 Pixel<br>
